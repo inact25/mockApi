@@ -1,13 +1,490 @@
-{
-  "Post": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "createdAt": "date",
-    "comments": "Comment[]"
-  },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
-  }
-}
+[
+    {
+        title: "Pembuatan Video Ajar",
+        description: `Pembuatan Video untuk sarana Pembelajaran
+                                    terasa sangat cepat, mudah dan menyenangkan.
+
+                                    Pelatihan Video Pembelajaran berbasis digital menggunakan komputer dan smart-phone.
+                                    Dibimbing oleh mentor yang berpengalaman di bidang perfilman dan televisi. Dalam
+                                    waktu relatif singkat peserta akan mampu membuat video pembelajarannya sendiri yang
+                                    bisa digunakan untuk konten sosial media atau pun library pembelajaran pendidikan.`,
+        price: "IDR 800.000",
+        materi: [{
+
+            title: "Pengantar Multimedia",
+            sub: [
+                {
+                    item: "Overview tentang audio visual"
+                },
+                {
+                    item: "Multimedia Interaktif dan Linear"
+                }]
+        },
+            {
+                title: "Pengantar Video dan Camera",
+                sub: [
+                    {
+                        item: "Konsep, Naskah dan Run-down (penjadwalan)"
+                    },
+                    {
+                        item: "Teknik pengambilan gambar video"
+                    },
+                    {
+                        item: "Jenis dan ragam alat perekaman video"
+                    }]
+            },
+            {
+                title: "Digital Editing",
+                sub: [
+                    {
+                        item: "Pra-editing (offline dan persiapan)"
+                    },
+                    {
+                        item: "Editing Video (berbagai macam teknik editing Video)"
+                    },
+                    {
+                        item: "Editing Audio"
+                    },
+                    {
+                        item: "Mengkomposisi dan mengelola video dalam software"
+                    }]
+            },
+            {
+                title: "Media Video dan Perkembangan Sosial Media ",
+                sub: [
+                    {
+                        item: "Peran video dalam sosial media"
+                    },
+                    {
+                        item: "Cara mengemas video untuk sosial media dan pembelajaran"
+                    }]
+
+            }],
+        facility: ["Peralatan Pendukung", "Modul", "Coffee Break", "Lunch", "Sertifikat"],
+        galery: [
+            {
+                imgUrl: "https://images.unsplash.com/photo-1621569976717-0ee0623b8080?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80"
+            }, {
+                imgUrl: "https://images.unsplash.com/photo-1621569977598-5276dd1f488f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80"
+            },
+            {
+                imgUrl: "https://images.unsplash.com/photo-1621569899323-55c203a0f7f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80"
+            },
+            {
+                imgUrl: "https://images.unsplash.com/photo-1621570168205-c93ccd501004?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80"
+            },]
+
+
+    },
+    {
+        title: "Training Paket Film Animasi Pendek",
+        description: `Membuat animasi pendek tidak serumit yang dibayangkan, semua akan menjadi mudah, cepat dan menyenangkan.
+
+Pelatihan paket pembuatan film animasi pendek berbasis digital menggunakan peralatan komputer dan alat gambar digital yang langsung menggambar dalam komputer. Pelatihan dimulai dari menemukan ide, membuat cerita dan karakter, merancang konsep, sampai melakukan produksi animasi, mengedit suara dan mengemas dalam video menjadi film animasi pendek utuh yang siap untuk ditonton bersama. Peserta akan dibimbing oleh instruktur yang berpengalaman di bidangnya lebih dari 10 tahun dalam membuat film animasi pada studio besar. 
+`,
+        price: "IDR 1000.000",
+        materi: [{
+
+            title: "Pengantar Film Animasi",
+            sub: [
+                {
+                    item: "Overview tentang Animasi dan teknik-teknik animasi"
+                },
+                {
+                    item: "Pengenalan alat-alat kerja pembuatan film animasi"
+                }]
+        },
+            {
+                title: "Pembuatan Naskah Film Animasi",
+                sub: [
+                    {
+                        item: "Penggalian Ide"
+                    },
+                    {
+                        item: "Menemukan Logline"
+                    },
+                    {
+                        item: "Menyusun synopsis & Treatment"
+                    },
+                    {
+                        item: "Membuat naskah fim animasi (Scriptwriting)"
+                    }]
+            },
+            {
+                title: "Pembuatan Karakter & Konsep Art",
+                sub: [
+                    {
+                        item: "Pembuatan Karakter dan menyusun karakterisasi"
+                    },
+                    {
+                        item: "Merancang set dan dunia film"
+                    },
+                    {
+                        item: "Merancang Konsep Art pendukung Film dan Layout"
+                    },
+                    ]
+            },
+            {
+                title: "Sinematografi Film",
+                sub: [
+                    {
+                        item: "Membuat Storyboard & Animatic"
+                    },
+                    {
+                        item: "Menyusun Sinematografi Film"
+                    }]
+
+            },
+            {
+                title: "Memproduksi Animasi",
+                sub: [
+                    {
+                        item: "Membuat Background & Property"
+                    },
+                    {
+                        item: "Menganimasikan Karakter"
+                    }]
+
+            },
+            {
+                title: "Kompositing, Editing Film dan Suara",
+                sub: [
+                    {
+                        item: "Menkomposisikan animasi"
+                    },
+                    {
+                        item: "Mengedit suara music & efek"
+                    },
+                    {
+                        item: "Mengedit Film"
+                    },
+                    {
+                        item: "Mengemas film dan media"
+                    }]
+
+            }],
+        facility: ["Peralatan Pendukung", "Modul", "Coffee Break", "Lunch", "Sertifikat"],
+        galery: [
+            {
+                imgUrl: "https://images.unsplash.com/photo-1621569976717-0ee0623b8080?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80"
+            }, {
+                imgUrl: "https://images.unsplash.com/photo-1621569977598-5276dd1f488f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80"
+            },
+            {
+                imgUrl: "https://images.unsplash.com/photo-1621569899323-55c203a0f7f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80"
+            },
+            {
+                imgUrl: "https://images.unsplash.com/photo-1621570168205-c93ccd501004?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80"
+            },]
+
+
+    },
+    {
+        title: "Training Penulisan Naskah Film",
+        description: `Membuat animasi pendek tidak serumit yang dibayangkan, semua akan menjadi mudah, cepat dan menyenangkan.
+
+Pelatihan paket pembuatan film animasi pendek berbasis digital menggunakan peralatan komputer dan alat gambar digital yang langsung menggambar dalam komputer. Pelatihan dimulai dari menemukan ide, membuat cerita dan karakter, merancang konsep, sampai melakukan produksi animasi, mengedit suara dan mengemas dalam video menjadi film animasi pendek utuh yang siap untuk ditonton bersama. Peserta akan dibimbing oleh instruktur yang berpengalaman di bidangnya lebih dari 10 tahun dalam membuat film animasi pada studio besar. 
+`,
+        price: "IDR 1000.000",
+        materi: [{
+
+            title: "Pengantar Film Animasi",
+            sub: [
+                {
+                    item: "Overview tentang Animasi dan teknik-teknik animasi"
+                },
+                {
+                    item: "Pengenalan alat-alat kerja pembuatan film animasi"
+                }]
+        },
+            {
+                title: "Pembuatan Naskah Film Animasi",
+                sub: [
+                    {
+                        item: "Penggalian Ide"
+                    },
+                    {
+                        item: "Menemukan Logline"
+                    },
+                    {
+                        item: "Menyusun synopsis & Treatment"
+                    },
+                    {
+                        item: "Membuat naskah fim animasi (Scriptwriting)"
+                    }]
+            },
+            {
+                title: "Pembuatan Karakter & Konsep Art",
+                sub: [
+                    {
+                        item: "Pembuatan Karakter dan menyusun karakterisasi"
+                    },
+                    {
+                        item: "Merancang set dan dunia film"
+                    },
+                    {
+                        item: "Merancang Konsep Art pendukung Film dan Layout"
+                    },
+                ]
+            },
+            {
+                title: "Sinematografi Film",
+                sub: [
+                    {
+                        item: "Membuat Storyboard & Animatic"
+                    },
+                    {
+                        item: "Menyusun Sinematografi Film"
+                    }]
+
+            },
+            {
+                title: "Memproduksi Animasi",
+                sub: [
+                    {
+                        item: "Membuat Background & Property"
+                    },
+                    {
+                        item: "Menganimasikan Karakter"
+                    }]
+
+            },
+            {
+                title: "Kompositing, Editing Film dan Suara",
+                sub: [
+                    {
+                        item: "Menkomposisikan animasi"
+                    },
+                    {
+                        item: "Mengedit suara music & efek"
+                    },
+                    {
+                        item: "Mengedit Film"
+                    },
+                    {
+                        item: "Mengemas film dan media"
+                    }]
+
+            }],
+        facility: ["Peralatan Pendukung", "Modul", "Coffee Break", "Lunch", "Sertifikat"],
+        galery: [
+            {
+                imgUrl: "https://images.unsplash.com/photo-1621569976717-0ee0623b8080?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80"
+            }, {
+                imgUrl: "https://images.unsplash.com/photo-1621569977598-5276dd1f488f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80"
+            },
+            {
+                imgUrl: "https://images.unsplash.com/photo-1621569899323-55c203a0f7f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80"
+            },
+            {
+                imgUrl: "https://images.unsplash.com/photo-1621570168205-c93ccd501004?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80"
+            },]
+
+
+    },
+    {
+        title: "Training Desain Grafis",
+        description: `Membuat animasi pendek tidak serumit yang dibayangkan, semua akan menjadi mudah, cepat dan menyenangkan.
+
+Pelatihan paket pembuatan film animasi pendek berbasis digital menggunakan peralatan komputer dan alat gambar digital yang langsung menggambar dalam komputer. Pelatihan dimulai dari menemukan ide, membuat cerita dan karakter, merancang konsep, sampai melakukan produksi animasi, mengedit suara dan mengemas dalam video menjadi film animasi pendek utuh yang siap untuk ditonton bersama. Peserta akan dibimbing oleh instruktur yang berpengalaman di bidangnya lebih dari 10 tahun dalam membuat film animasi pada studio besar. 
+`,
+        price: "IDR 800.000",
+        materi: [{
+
+            title: "Pengantar Film Animasi",
+            sub: [
+                {
+                    item: "Overview tentang Animasi dan teknik-teknik animasi"
+                },
+                {
+                    item: "Pengenalan alat-alat kerja pembuatan film animasi"
+                }]
+        },
+            {
+                title: "Pembuatan Naskah Film Animasi",
+                sub: [
+                    {
+                        item: "Penggalian Ide"
+                    },
+                    {
+                        item: "Menemukan Logline"
+                    },
+                    {
+                        item: "Menyusun synopsis & Treatment"
+                    },
+                    {
+                        item: "Membuat naskah fim animasi (Scriptwriting)"
+                    }]
+            },
+            {
+                title: "Pembuatan Karakter & Konsep Art",
+                sub: [
+                    {
+                        item: "Pembuatan Karakter dan menyusun karakterisasi"
+                    },
+                    {
+                        item: "Merancang set dan dunia film"
+                    },
+                    {
+                        item: "Merancang Konsep Art pendukung Film dan Layout"
+                    },
+                ]
+            },
+            {
+                title: "Sinematografi Film",
+                sub: [
+                    {
+                        item: "Membuat Storyboard & Animatic"
+                    },
+                    {
+                        item: "Menyusun Sinematografi Film"
+                    }]
+
+            },
+            {
+                title: "Memproduksi Animasi",
+                sub: [
+                    {
+                        item: "Membuat Background & Property"
+                    },
+                    {
+                        item: "Menganimasikan Karakter"
+                    }]
+
+            },
+            {
+                title: "Kompositing, Editing Film dan Suara",
+                sub: [
+                    {
+                        item: "Menkomposisikan animasi"
+                    },
+                    {
+                        item: "Mengedit suara music & efek"
+                    },
+                    {
+                        item: "Mengedit Film"
+                    },
+                    {
+                        item: "Mengemas film dan media"
+                    }]
+
+            }],
+        facility: ["Peralatan Pendukung", "Modul", "Coffee Break", "Lunch", "Sertifikat"],
+        galery: [
+            {
+                imgUrl: "https://images.unsplash.com/photo-1621569976717-0ee0623b8080?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80"
+            }, {
+                imgUrl: "https://images.unsplash.com/photo-1621569977598-5276dd1f488f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80"
+            },
+            {
+                imgUrl: "https://images.unsplash.com/photo-1621569899323-55c203a0f7f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80"
+            },
+            {
+                imgUrl: "https://images.unsplash.com/photo-1621570168205-c93ccd501004?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80"
+            },]
+
+
+    },
+    {
+        title: "Training Desain Grafis",
+        description: `Membuat animasi pendek tidak serumit yang dibayangkan, semua akan menjadi mudah, cepat dan menyenangkan.
+
+Pelatihan paket pembuatan film animasi pendek berbasis digital menggunakan peralatan komputer dan alat gambar digital yang langsung menggambar dalam komputer. Pelatihan dimulai dari menemukan ide, membuat cerita dan karakter, merancang konsep, sampai melakukan produksi animasi, mengedit suara dan mengemas dalam video menjadi film animasi pendek utuh yang siap untuk ditonton bersama. Peserta akan dibimbing oleh instruktur yang berpengalaman di bidangnya lebih dari 10 tahun dalam membuat film animasi pada studio besar. 
+`,
+        price: "IDR 800.000",
+        materi: [{
+
+            title: "Pengantar Film Animasi",
+            sub: [
+                {
+                    item: "Overview tentang Animasi dan teknik-teknik animasi"
+                },
+                {
+                    item: "Pengenalan alat-alat kerja pembuatan film animasi"
+                }]
+        },
+            {
+                title: "Pembuatan Naskah Film Animasi",
+                sub: [
+                    {
+                        item: "Penggalian Ide"
+                    },
+                    {
+                        item: "Menemukan Logline"
+                    },
+                    {
+                        item: "Menyusun synopsis & Treatment"
+                    },
+                    {
+                        item: "Membuat naskah fim animasi (Scriptwriting)"
+                    }]
+            },
+            {
+                title: "Pembuatan Karakter & Konsep Art",
+                sub: [
+                    {
+                        item: "Pembuatan Karakter dan menyusun karakterisasi"
+                    },
+                    {
+                        item: "Merancang set dan dunia film"
+                    },
+                    {
+                        item: "Merancang Konsep Art pendukung Film dan Layout"
+                    },
+                ]
+            },
+            {
+                title: "Sinematografi Film",
+                sub: [
+                    {
+                        item: "Membuat Storyboard & Animatic"
+                    },
+                    {
+                        item: "Menyusun Sinematografi Film"
+                    }]
+
+            },
+            {
+                title: "Memproduksi Animasi",
+                sub: [
+                    {
+                        item: "Membuat Background & Property"
+                    },
+                    {
+                        item: "Menganimasikan Karakter"
+                    }]
+
+            },
+            {
+                title: "Kompositing, Editing Film dan Suara",
+                sub: [
+                    {
+                        item: "Menkomposisikan animasi"
+                    },
+                    {
+                        item: "Mengedit suara music & efek"
+                    },
+                    {
+                        item: "Mengedit Film"
+                    },
+                    {
+                        item: "Mengemas film dan media"
+                    }]
+
+            }],
+        facility: ["Peralatan Pendukung", "Modul", "Coffee Break", "Lunch", "Sertifikat"],
+        galery: [
+            {
+                imgUrl: "https://images.unsplash.com/photo-1621569976717-0ee0623b8080?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80"
+            }, {
+                imgUrl: "https://images.unsplash.com/photo-1621569977598-5276dd1f488f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80"
+            },
+            {
+                imgUrl: "https://images.unsplash.com/photo-1621569899323-55c203a0f7f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80"
+            },
+            {
+                imgUrl: "https://images.unsplash.com/photo-1621570168205-c93ccd501004?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80"
+            },]
+
+
+    },]
